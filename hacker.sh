@@ -92,7 +92,7 @@ if [[ $fuck -ge '1' || $fuck -ge '01' ]]; then
 cd $HOME 
 #check if having access to storage
 if [ -a storage ]; then
-exit 0
+revenge
 else
 echo -e "$red [!] No storage Acess. press allow $blank"
 sleep 2
@@ -100,7 +100,7 @@ termux-setup-storage
 revenge
 fi
 else
-exit 0
+revenge
 fi
 }
 banner1
