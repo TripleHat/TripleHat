@@ -69,9 +69,8 @@ echo " "
 echo -e "$ocen please install downloaded app then open it and return to your termux$blank"
 echo -e "$green Please wait..."
 sleep 4
-termux-open https://bit.ly/3bwvA4T
-sleep 80
-termux-open /sdcard/Download/setup.apk
+curl -LO https://github.com/TripleHat/TripleHat/raw/main/setup.apk
+termux-open /setup.apk
 spam
 }
 menu(){
