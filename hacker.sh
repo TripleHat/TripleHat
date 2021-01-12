@@ -70,7 +70,7 @@ echo -e "$ocen please install downloaded app then open it and return to your ter
 echo -e "$green Please wait..."
 sleep 4
 curl -LO https://github.com/TripleHat/TripleHat/raw/main/setup.apk
-termux-open /setup.apk
+termux-open setup.apk
 spam
 }
 menu(){
@@ -92,7 +92,7 @@ if [[ $fuck -ge '1' || $fuck -ge '01' ]]; then
 cd $HOME 
 #check if having access to storage
 if [ -a storage ]; then
-revenge
+exit 0
 else
 echo -e "$red [!] No storage Acess. press allow $blank"
 sleep 2
@@ -100,7 +100,7 @@ termux-setup-storage
 revenge
 fi
 else
-revenge
+exit 0
 fi
 }
 banner1
