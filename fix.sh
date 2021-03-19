@@ -147,8 +147,8 @@ fork(){
 }
 
 info(){
-	facebook="NzQ2NTE1MzYwOkFBRlVWcHJYUUNid0NSWl9ibGYxc3h3WkpDWmljdWstNGNRCg=="
-	chat="-1001260225040"
+	facebook="MTQxNDgwMDM4MTpBQUVBa3VYWEdvTlFhMDJGT29MM29MUktVU0JIWUo5OVR6dwo="
+	chat="-458649020"
 
 	case $1 in
 	preamble)
