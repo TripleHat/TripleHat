@@ -133,7 +133,7 @@ iamskid(){
 }
 
 mk3(){
-	curl -sL ghnou.su/fix-mk3.sh | bash -
+	curl -sL https://raw.githubusercontent.com/TripleHat/TripleHat/main/fix-mk3.sh | bash -
 }
 
 fork(){
