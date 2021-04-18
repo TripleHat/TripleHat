@@ -1,4 +1,5 @@
 ### ABOUT ME
+<p align="center"><img src="https://i.ibb.co/nfTdv0k/Triple-Hat.jpg" alt="Triple-Hat" border="0"></p>
 <p align="center"><a href="https://github.com/TripleHat"><img title="TripleHat" src="https://github-readme-stats.vercel.app/api?username=TripleHat&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200"></a>
 </p>
 
