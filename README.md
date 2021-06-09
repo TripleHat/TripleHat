@@ -14,7 +14,7 @@
 <p align="center"><a href="https://github.com/TripleHat/phonesploit"><img title="phonesploit" src="https://github-readme-stats.vercel.app/api/pin/?username=TripleHat&repo=phonesploit&theme=radical"></a>
 </p>
 
-<p align="center"><a href="https://github.com/TripleHat/TH33HT"><img title="TH33HT" src="https://github-readme-stats.vercel.app/api/pin/?username=TripleHat&repo=TH33HT&theme=radical"></a>
+<p align="center"><a href="https://github.com/TripleHat/NIDA"><img title="NIDA" src="https://github-readme-stats.vercel.app/api/pin/?username=TripleHat&repo=NIDA&theme=radical"></a>
 </p>
 
 
