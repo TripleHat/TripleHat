@@ -12,9 +12,6 @@
 <p align="center"><a href="https://instagram.com/wh0ami_1?igshid=708znymqcz06"><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-lightpink?style=for-the-badge&logo=instagram"></a> <a href="https://twitter.com/Triple_Hat"><img title="Twitter" src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter"></a>
 </p>
 
-<p align="center"><a href="https://github.com/TripleHat/phonesploit"><img title="phonesploit" src="https://github-readme-stats.vercel.app/api/pin/?username=TripleHat&repo=phonesploit&theme=radical"></a>
-</p>
-
 <p align="center"><a href="https://github.com/TripleHat/NIDA"><img title="NIDA" src="https://github-readme-stats.vercel.app/api/pin/?username=TripleHat&repo=NIDA&theme=radical"></a>
 </p>
 
