@@ -6,7 +6,7 @@
 
 <p align="center">
 <a href="https://github.com/TripleHat"><img title="GitHub" src="https://img.shields.io/badge/GitHub-TripleHat-black?style=for-the-badge&logo=github"></a>
-<a href="https://youtube.com/c/TripleHat"><img title="YouTube" src="https://img.shields.io/badge/YouTube-wH0amI-red?style=for-the-badge&logo=Youtube"></a>
+<a href="https://youtube.com/c/TripleHat"><img title="YouTube" src="https://img.shields.io/badge/YouTube-TripleHat-red?style=for-the-badge&logo=Youtube"></a>
 </p>
 
 <p align="center"><a href="https://instagram.com/the3hat"><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-lightpink?style=for-the-badge&logo=instagram"></a> <a href="https://twitter.com/Triple_Hat"><img title="Twitter" src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter"></a>
