@@ -12,4 +12,3 @@
 </p>
 
 [<img src="https://github-profile-trophy.vercel.app/?username=mrx7014&theme=darkhub&no-bg=true&row=1" alt="mrx7014" />](#)
-[<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mrx7014&theme=tokyonight_duo" alt="mrx7014" />](#)
